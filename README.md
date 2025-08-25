@@ -43,3 +43,70 @@ Al confirmar:
    ```bash
    git clone <url-del-repositorio>
    cd <nombre-del-proyecto>
+
+
+
+
+   Instala las dependencias:
+
+pip install -r requirements.txt
+
+
+Ejecuta las migraciones de la base de datos:
+
+python manage.py migrate
+
+
+Inicia el servidor de desarrollo:
+
+python manage.py runserver
+
+
+Accede en tu navegador a:
+
+http://localhost:8000/subir/
+
+💡 Características destacadas
+
+✅ Soporte para archivos Excel y CSV.
+
+✅ Limpieza automática de filas vacías y propagación de celdas fusionadas.
+
+✅ Vista previa antes de guardar.
+
+✅ Guardado local y en base de datos.
+
+✅ Interfaz web amigable con mensajes claros para el usuario.
+
+📂 Ejemplo de uso
+Subida del archivo
+
+El usuario selecciona un archivo .xlsx o .csv desde el formulario de carga.
+
+[Seleccionar archivo]  [Subir]
+
+Vista previa procesada
+
+Una vez cargado, se muestra una tabla limpia y ordenada con los datos listos para revisar:
+
+Semestre	Capital Inicial	Interés (%)	Capital Final
+1	1,000,000	5%	1,050,000
+	1,050,000	5%	1,102,500
+2	1,102,500	5%	1,157,625
+	1,157,625	5%	1,215,506
+Confirmación
+
+El usuario hace clic en "Guardar" para almacenar el archivo procesado.
+El sistema guarda:
+
+Una copia del archivo en la carpeta uploads/.
+
+Un registro en la base de datos con información básica (nombre, fecha de carga, etc.).
+
+📌 Notas
+
+Este proyecto está diseñado para usarse como base o plantilla, y puede adaptarse fácilmente a otros casos de procesamiento de datos.
+
+Compatible con Django 4.x o superior.
+
+Requiere pandas y openpyxl para manejar archivos Excel.
