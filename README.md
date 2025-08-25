@@ -41,8 +41,8 @@ Al confirmar:
 
 1. Clona el repositorio y navega al directorio del proyecto:  
    ```bash
-   git clone <url-del-repositorio>
-   cd <nombre-del-proyecto>
+   git clone https://github.com/DarkXz7/DataFrame2.git
+  
 
 2. Instala las dependencias:
    	pip install -r requirements.txt
