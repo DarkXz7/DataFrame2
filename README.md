@@ -76,15 +76,17 @@ El usuario selecciona un archivo .xlsx o .csv desde el formulario de carga:
 
 
 
-🔹 Vista previa procesada
+- Vista previa procesada  
 
 Una vez cargado, se muestra una tabla limpia y ordenada con los datos listos para revisar:
 
-Semestre	Capital Inicial	Interés 		(%)	Capital Final
-1			1,000,000						5%	1,050,000
-			1,050,000						5%	1,102,500
-2			1,102,500						5%	1,157,625
-			1,157,625						5%	1,215,506
+```text
+Semestre    Capital Inicial   Interés (%)   Capital Final
+1           1,000,000         5%            1,050,000
+            1,050,000         5%            1,102,500
+2           1,102,500         5%            1,157,625
+            1,157,625         5%            1,215,506
+
 
 
 🔹 Confirmación
