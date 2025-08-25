@@ -59,12 +59,11 @@ Al confirmar:
 
 
 
-💡 Características destacadas
-
-✅ Soporte para archivos Excel y CSV.
-✅ Limpieza automática de filas vacías y propagación de celdas fusionadas.
-✅ Vista previa antes de guardar.
-✅ Guardado local y en base de datos.
+```text
+✅ Soporte para archivos Excel y CSV. 
+✅ Limpieza automática de filas vacías y propagación de celdas fusionadas. 
+✅ Vista previa antes de guardar. 
+✅ Guardado local y en base de datos. 
 ✅ Interfaz web amigable con mensajes claros para el usuario.
 
 
