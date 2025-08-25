@@ -108,6 +108,8 @@ Requiere pandas y openpyxl para manejar archivos Excel.
 ⚙️ Requerimientos principales
 En el archivo requirements.txt encontrarás las dependencias necesarias. Ejemplo:
 
-Django>=4.0
+Django>=4.0 
+
 pandas
+
 openpyxl
