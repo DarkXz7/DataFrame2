@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Archivo Guardado</title>    
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; text-align: center; }
+        .success { color: #28a745; padding: 40px; }
+        .btn { 
+            padding: 15px 30px; 
+            margin: 20px; 
+            background-color: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            display: inline-block;
+            font-size: 16px;
+        }
+        .btn:hover { background-color: #0056b3; }
+        .icon { font-size: 4em; margin-bottom: 20px; }
+    </style>
+</head>  
+<body>    
+
+<div class="success">
+    <div class="icon">✅</div>
+    <h1>¡Archivo Guardado Exitosamente!</h1>
+    <h2>{{ nombre }}</h2>
+    <p>El archivo ha sido procesado y guardado correctamente en tu sistema.</p>
+    
+    <a href="{% url 'subir_archivo' %}" class="btn">📁 Subir Otro Archivo</a>
+</div>
+
+</body>  
+</html>
